@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DA27DB425332157000F76E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA27DB325332157000F76E5 /* AppDelegate.swift */; };
+		2DA27DB625332157000F76E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA27DB525332157000F76E5 /* SceneDelegate.swift */; };
+		2DA27DB825332157000F76E5 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA27DB725332157000F76E5 /* ProductViewController.swift */; };
+		2DA27DBB25332157000F76E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA27DB925332157000F76E5 /* Main.storyboard */; };
+		2DA27DBD25332159000F76E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DA27DBC25332159000F76E5 /* Assets.xcassets */; };
+		2DA27DC025332159000F76E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA27DBE25332159000F76E5 /* LaunchScreen.storyboard */; };
+		2DA27DCB2533215A000F76E5 /* Week2_Pedro_UIKit_TableViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA27DCA2533215A000F76E5 /* Week2_Pedro_UIKit_TableViewsTests.swift */; };
+		2DA27DD62533215A000F76E5 /* Week2_Pedro_UIKit_TableViewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA27DD52533215A000F76E5 /* Week2_Pedro_UIKit_TableViewsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DA27DC72533215A000F76E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DA27DA825332157000F76E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DA27DAF25332157000F76E5;
+			remoteInfo = "Week2-Pedro-UIKit-TableViews";
+		};
+		2DA27DD22533215A000F76E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DA27DA825332157000F76E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DA27DAF25332157000F76E5;
+			remoteInfo = "Week2-Pedro-UIKit-TableViews";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DA27DB025332157000F76E5 /* Week2-Pedro-UIKit-TableViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week2-Pedro-UIKit-TableViews.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA27DB325332157000F76E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DA27DB525332157000F76E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2DA27DB725332157000F76E5 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		2DA27DBA25332157000F76E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DA27DBC25332159000F76E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DA27DBF25332159000F76E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DA27DC125332159000F76E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DA27DC62533215A000F76E5 /* Week2-Pedro-UIKit-TableViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week2-Pedro-UIKit-TableViewsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA27DCA2533215A000F76E5 /* Week2_Pedro_UIKit_TableViewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week2_Pedro_UIKit_TableViewsTests.swift; sourceTree = "<group>"; };
+		2DA27DCC2533215A000F76E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DA27DD12533215A000F76E5 /* Week2-Pedro-UIKit-TableViewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week2-Pedro-UIKit-TableViewsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA27DD52533215A000F76E5 /* Week2_Pedro_UIKit_TableViewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week2_Pedro_UIKit_TableViewsUITests.swift; sourceTree = "<group>"; };
+		2DA27DD72533215A000F76E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DA27DAD25332157000F76E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA27DC32533215A000F76E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA27DCE2533215A000F76E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DA27DA725332157000F76E5 = {
+			isa = PBXGroup;
+			children = (
+				2DA27DB225332157000F76E5 /* Week2-Pedro-UIKit-TableViews */,
+				2DA27DC92533215A000F76E5 /* Week2-Pedro-UIKit-TableViewsTests */,
+				2DA27DD42533215A000F76E5 /* Week2-Pedro-UIKit-TableViewsUITests */,
+				2DA27DB125332157000F76E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DA27DB125332157000F76E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DA27DB025332157000F76E5 /* Week2-Pedro-UIKit-TableViews.app */,
+				2DA27DC62533215A000F76E5 /* Week2-Pedro-UIKit-TableViewsTests.xctest */,
+				2DA27DD12533215A000F76E5 /* Week2-Pedro-UIKit-TableViewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DA27DB225332157000F76E5 /* Week2-Pedro-UIKit-TableViews */ = {
+			isa = PBXGroup;
+			children = (
+				2DA27DB325332157000F76E5 /* AppDelegate.swift */,
+				2DA27DB525332157000F76E5 /* SceneDelegate.swift */,
+				2DA27DB725332157000F76E5 /* ProductViewController.swift */,
+				2DA27DB925332157000F76E5 /* Main.storyboard */,
+				2DA27DBC25332159000F76E5 /* Assets.xcassets */,
+				2DA27DBE25332159000F76E5 /* LaunchScreen.storyboard */,
+				2DA27DC125332159000F76E5 /* Info.plist */,
+			);
+			path = "Week2-Pedro-UIKit-TableViews";
+			sourceTree = "<group>";
+		};
+		2DA27DC92533215A000F76E5 /* Week2-Pedro-UIKit-TableViewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DA27DCA2533215A000F76E5 /* Week2_Pedro_UIKit_TableViewsTests.swift */,
+				2DA27DCC2533215A000F76E5 /* Info.plist */,
+			);
+			path = "Week2-Pedro-UIKit-TableViewsTests";
+			sourceTree = "<group>";
+		};
+		2DA27DD42533215A000F76E5 /* Week2-Pedro-UIKit-TableViewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2DA27DD52533215A000F76E5 /* Week2_Pedro_UIKit_TableViewsUITests.swift */,
+				2DA27DD72533215A000F76E5 /* Info.plist */,
+			);
+			path = "Week2-Pedro-UIKit-TableViewsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DA27DAF25332157000F76E5 /* Week2-Pedro-UIKit-TableViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DA27DDA2533215A000F76E5 /* Build configuration list for PBXNativeTarget "Week2-Pedro-UIKit-TableViews" */;
+			buildPhases = (
+				2DA27DAC25332157000F76E5 /* Sources */,
+				2DA27DAD25332157000F76E5 /* Frameworks */,
+				2DA27DAE25332157000F76E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Week2-Pedro-UIKit-TableViews";
+			productName = "Week2-Pedro-UIKit-TableViews";
+			productReference = 2DA27DB025332157000F76E5 /* Week2-Pedro-UIKit-TableViews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DA27DC52533215A000F76E5 /* Week2-Pedro-UIKit-TableViewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DA27DDD2533215A000F76E5 /* Build configuration list for PBXNativeTarget "Week2-Pedro-UIKit-TableViewsTests" */;
+			buildPhases = (
+				2DA27DC22533215A000F76E5 /* Sources */,
+				2DA27DC32533215A000F76E5 /* Frameworks */,
+				2DA27DC42533215A000F76E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DA27DC82533215A000F76E5 /* PBXTargetDependency */,
+			);
+			name = "Week2-Pedro-UIKit-TableViewsTests";
+			productName = "Week2-Pedro-UIKit-TableViewsTests";
+			productReference = 2DA27DC62533215A000F76E5 /* Week2-Pedro-UIKit-TableViewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DA27DD02533215A000F76E5 /* Week2-Pedro-UIKit-TableViewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DA27DE02533215A000F76E5 /* Build configuration list for PBXNativeTarget "Week2-Pedro-UIKit-TableViewsUITests" */;
+			buildPhases = (
+				2DA27DCD2533215A000F76E5 /* Sources */,
+				2DA27DCE2533215A000F76E5 /* Frameworks */,
+				2DA27DCF2533215A000F76E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DA27DD32533215A000F76E5 /* PBXTargetDependency */,
+			);
+			name = "Week2-Pedro-UIKit-TableViewsUITests";
+			productName = "Week2-Pedro-UIKit-TableViewsUITests";
+			productReference = 2DA27DD12533215A000F76E5 /* Week2-Pedro-UIKit-TableViewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DA27DA825332157000F76E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					2DA27DAF25332157000F76E5 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					2DA27DC52533215A000F76E5 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 2DA27DAF25332157000F76E5;
+					};
+					2DA27DD02533215A000F76E5 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 2DA27DAF25332157000F76E5;
+					};
+				};
+			};
+			buildConfigurationList = 2DA27DAB25332157000F76E5 /* Build configuration list for PBXProject "Week2-Pedro-UIKit-TableViews" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DA27DA725332157000F76E5;
+			productRefGroup = 2DA27DB125332157000F76E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DA27DAF25332157000F76E5 /* Week2-Pedro-UIKit-TableViews */,
+				2DA27DC52533215A000F76E5 /* Week2-Pedro-UIKit-TableViewsTests */,
+				2DA27DD02533215A000F76E5 /* Week2-Pedro-UIKit-TableViewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DA27DAE25332157000F76E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA27DC025332159000F76E5 /* LaunchScreen.storyboard in Resources */,
+				2DA27DBD25332159000F76E5 /* Assets.xcassets in Resources */,
+				2DA27DBB25332157000F76E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA27DC42533215A000F76E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA27DCF2533215A000F76E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DA27DAC25332157000F76E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA27DB825332157000F76E5 /* ProductViewController.swift in Sources */,
+				2DA27DB425332157000F76E5 /* AppDelegate.swift in Sources */,
+				2DA27DB625332157000F76E5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA27DC22533215A000F76E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA27DCB2533215A000F76E5 /* Week2_Pedro_UIKit_TableViewsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA27DCD2533215A000F76E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA27DD62533215A000F76E5 /* Week2_Pedro_UIKit_TableViewsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DA27DC82533215A000F76E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DA27DAF25332157000F76E5 /* Week2-Pedro-UIKit-TableViews */;
+			targetProxy = 2DA27DC72533215A000F76E5 /* PBXContainerItemProxy */;
+		};
+		2DA27DD32533215A000F76E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DA27DAF25332157000F76E5 /* Week2-Pedro-UIKit-TableViews */;
+			targetProxy = 2DA27DD22533215A000F76E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DA27DB925332157000F76E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DA27DBA25332157000F76E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DA27DBE25332159000F76E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DA27DBF25332159000F76E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DA27DD82533215A000F76E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DA27DD92533215A000F76E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DA27DDB2533215A000F76E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FFBU6H3CE;
+				INFOPLIST_FILE = "Week2-Pedro-UIKit-TableViews/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christianleovido.Week2-Pedro-UIKit-TableViews";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DA27DDC2533215A000F76E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FFBU6H3CE;
+				INFOPLIST_FILE = "Week2-Pedro-UIKit-TableViews/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christianleovido.Week2-Pedro-UIKit-TableViews";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2DA27DDE2533215A000F76E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FFBU6H3CE;
+				INFOPLIST_FILE = "Week2-Pedro-UIKit-TableViewsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christianleovido.Week2-Pedro-UIKit-TableViewsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Week2-Pedro-UIKit-TableViews.app/Week2-Pedro-UIKit-TableViews";
+			};
+			name = Debug;
+		};
+		2DA27DDF2533215A000F76E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FFBU6H3CE;
+				INFOPLIST_FILE = "Week2-Pedro-UIKit-TableViewsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christianleovido.Week2-Pedro-UIKit-TableViewsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Week2-Pedro-UIKit-TableViews.app/Week2-Pedro-UIKit-TableViews";
+			};
+			name = Release;
+		};
+		2DA27DE12533215A000F76E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FFBU6H3CE;
+				INFOPLIST_FILE = "Week2-Pedro-UIKit-TableViewsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christianleovido.Week2-Pedro-UIKit-TableViewsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Week2-Pedro-UIKit-TableViews";
+			};
+			name = Debug;
+		};
+		2DA27DE22533215A000F76E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FFBU6H3CE;
+				INFOPLIST_FILE = "Week2-Pedro-UIKit-TableViewsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christianleovido.Week2-Pedro-UIKit-TableViewsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Week2-Pedro-UIKit-TableViews";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DA27DAB25332157000F76E5 /* Build configuration list for PBXProject "Week2-Pedro-UIKit-TableViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA27DD82533215A000F76E5 /* Debug */,
+				2DA27DD92533215A000F76E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DA27DDA2533215A000F76E5 /* Build configuration list for PBXNativeTarget "Week2-Pedro-UIKit-TableViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA27DDB2533215A000F76E5 /* Debug */,
+				2DA27DDC2533215A000F76E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DA27DDD2533215A000F76E5 /* Build configuration list for PBXNativeTarget "Week2-Pedro-UIKit-TableViewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA27DDE2533215A000F76E5 /* Debug */,
+				2DA27DDF2533215A000F76E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DA27DE02533215A000F76E5 /* Build configuration list for PBXNativeTarget "Week2-Pedro-UIKit-TableViewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA27DE12533215A000F76E5 /* Debug */,
+				2DA27DE22533215A000F76E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DA27DA825332157000F76E5 /* Project object */;
+}
